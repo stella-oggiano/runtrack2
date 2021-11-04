@@ -1,23 +1,19 @@
 <?php
 
 $min = 0 ;
-$max = 1337 ;
+$max = 1337;
 
-do {
-     echo  $min++, '</br>' ; 
-    
-} while ($min <= 41 ) ;
-
-
-if ( $min = 42) { echo '<b> <u>',$min++,'</b> </u>' ,'</br>' ;
-
+while ($min != 1337) 
+{
+    $min++; 
+    echo "<br>";
+    if ($min == 42) 
+    {
+        echo  "<b><u>".$min."</b></u>";
+    } else {
+        echo $min;
+    }
 }
-
-do { echo  $min++, '</br>' ; 
-    
-} while ($min <= $max) ;
 
 
 ?>
-
-
