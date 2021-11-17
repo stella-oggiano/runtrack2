@@ -1,10 +1,12 @@
 <?php
 
-function gethello()
-{
-    print_r('Hello LaPlateforme!', true);
+$hello = "Hello LaPlateforme";
+
+function gethello($hello)
+{   
+    return $hello ;
 }
+echo gethello($hello);
 
 
-
-?>
+?>  
